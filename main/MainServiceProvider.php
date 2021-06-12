@@ -26,10 +26,9 @@ class MainServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('core.support.option', Support\Option\OptionService::class);
-        $this->app->singleton('core.support.uploader', Support\Uploader\UploaderService::class);
-        $this->app->singleton('core.support.modelMeta', Support\ModelMeta\ModelMeta::class);
-        $this->app->singleton('core.support.formatter', Support\Formatter\FormatterService::class);
+        $this->app->singleton('main.tools.option', Tools\Option\OptionService::class);
+        $this->app->singleton('main.tools.uploader', Tools\Uploader\UploaderService::class);
+        $this->app->singleton('main.tools.formatter', Tools\Formatter\FormatterService::class);
     }
 
     /**
