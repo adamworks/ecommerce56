@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Support\Uploader;
+namespace main\Tools\Uploader;
 
 use Illuminate\Support\ServiceProvider;
 

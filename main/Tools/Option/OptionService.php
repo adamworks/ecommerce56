@@ -1,10 +1,10 @@
 <?php
 
-namespace Core\Support\Option;
+namespace main\Tools\Option;
 
-use Core\Support\Option\Exception\CodePushException;
-use Core\Support\Option\Exception\UpdateException;
-use Core\Support\Option\Exception\CurrentVersionException;
+use main\Tools\Option\Exception\CodePushException;
+use main\Tools\Option\Exception\UpdateException;
+use main\Tools\Option\Exception\CurrentVersionException;
 
 class OptionService
 {

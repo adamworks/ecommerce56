@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Support\Option;
+namespace main\Tools\Option;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class OptionFacade extends Facade
 {
 	protected static function getFacadeAccessor()
 	{
-		return 'core.support.option';
+		return 'main.Tools.option';
 	}
 }

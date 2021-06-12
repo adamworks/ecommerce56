@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Support\Uploader;
+namespace main\Tools\Uploader;
 
 use Storage;
 
@@ -9,7 +9,7 @@ use Imagine\Image\Point;
 use Imagine\Image\ImageInterface;
 use Orchestra\Imagine\Facade as Imagine;
 use Imagine\Filter\Basic\WebOptimization;
-use Core\Support\Uploader\ImageResize;
+use Core\Tools\Uploader\ImageResize;
 
 class UploaderService
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Support\Formatter;
+namespace main\Tools\Formatter;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class FormatterFacade extends Facade
 {
 	protected static function getFacadeAccessor()
 	{
-		return 'core.support.formatter';
+		return 'main.tools.formatter';
 	}
 }

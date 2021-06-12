@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Support\Option;
+namespace main\Tools\Option;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +23,6 @@ class OptionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('core.support.option', OptionService::class);
+        $this->app->singleton('main.tools.option', OptionService::class);
     }
 }

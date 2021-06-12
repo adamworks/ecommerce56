@@ -1,6 +1,6 @@
 <?php 
 
-namespace Core\Support\Formatter;
+namespace main\Tools\Formatter;
 
 class FormatterService
 {

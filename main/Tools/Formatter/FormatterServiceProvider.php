@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Support\Formatter;
+namespace main\Tools\Formatter;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +23,6 @@ class FormatterServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('core.support.formatter', FormatterService::class);
+        $this->app->singleton('main.tools.formatter', FormatterService::class);
     }
 }

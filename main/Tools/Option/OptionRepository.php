@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Support\Option;
+namespace main\Tools\Option;
 
 use Illuminate\Support\Facades\Cache;
-use Core\Foundation\EloquentRepository;
+use main\Core\EloquentRepository;
 
 class OptionRepository extends EloquentRepository
 {
